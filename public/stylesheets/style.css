@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,300i,400,400i,500, 700,700i,800,800i');
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+a {
+  color: #00B7FF;
+}
+img {
+  height: 287px;
+}
+textarea{
+  width: 400px;
+  height: 160px;
+}
+#title{
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: center;
+  font-size: 60px;
+}
+#form{
+  text-align: center;
+}
+body{
+  font-family: Roboto;
+  margin: 0;
+}
+.col-12{
+  margin-bottom: 20px;
+}
+.link-home{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 1.2em;
+  text-decoration: none;
+  color: #000000;
+}
+a{
+  text-decoration: none;
+}
+a:hover{
+  text-decoration: none;
+}
+
+.header-link{
+  font-weight: 500;
+  font-size: 0.9rem;
+  margin: 0 0 0 1.9rem;
+  color: black;
+}
+.header-link:hover{
+  color: black;
+}
+.active{
+  text-decoration: line-through;
+}
+#imagediv{
+  text-align: center;
+}
+input{
+  -webkit-appearance: none;
+  border-bottom: 2px solid black;
+}
+form{
+  padding-bottom: 70px;
+}
+.contact-content{
+  text-align: center;
+}
+#content{
+  background-color: #F0F0F0;
+}
